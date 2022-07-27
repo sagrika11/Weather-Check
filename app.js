@@ -107,7 +107,7 @@ function fetchWeatherData() {
                 }
                 else if (code == 1003 || code == 1006 || code == 1009 || code == 1030 || code == 1069 || code == 1087 || code == 1135 || code == 1273 || code == 1276 || code == 1279 || code == 1282) {
                     app.style.backgroundImage = `url(./images/${timeOfDay}/cloudy.jpg)`;
-                    btn.style.background = "#fa6d1b";
+                    btn.style.background = "#192236";
                     if (timeOfDay == "night") {
                         btn.style.background = "#181e27";
                     }
