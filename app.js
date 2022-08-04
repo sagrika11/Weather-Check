@@ -70,7 +70,7 @@ function fetchWeatherData() {
                 alert("No Matching City Found!")
             } else {
 
-                const date = data.location.localtime;
+                const date = data.location.localtime ;
                 const y = parseInt(date.substr(0, 4));
                 const m = parseInt(date.substr(5, 2));
                 const d = parseInt(date.substr(8, 2));
