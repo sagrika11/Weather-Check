@@ -72,8 +72,8 @@ function fetchWeatherData() {
 
                 const date = data.location.localtime ;
                 const y = parseInt(date.substr(0, 4));
-                const m = parseInt(date.substr(5, 2));
-                const d = parseInt(date.substr(8, 2));
+                const m = parseInt(date.substr(5, 7));
+                const d = parseInt(date.substr(8, 10));
                 const timeHr = parseInt(date.substr(11, 13));
                 const timeMin = parseInt(date.substr(14, 16));
     
