@@ -75,7 +75,7 @@ function fetchWeatherData() {
                 const m = parseInt(date.substr(5, 7));
                 const d = parseInt(date.substr(8, 10));
                 const timeHr = parseInt(date.substr(11, 13));
-                const timeMin = parseInt(date.substr(14, 16));
+                const timeMin = parseInt(date.substr(13, 15));
     
                 dateOutput.innerHTML = `${dayOfTheWeek(date)} ${d}-${m}-${y}`
                 timeOutput.innerHTML = timeHr + ":" + timeMin;
